@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0  Date: Чтв 26 Май 2011 13:58:22
+#
+$CMP MAX8511
+D Ultra-Low-Noise, High PSRR,Low-Dropout, 120mA Linear Regulators
+$ENDCMP
+#
+$CMP MAX9526
+D NTSC/PAL Video Decoder
+F docs/maxim-ic/MAX9526.pdf
+$ENDCMP
+#
+#End Doc Library

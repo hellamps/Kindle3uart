@@ -1,0 +1,31 @@
+PCBNEW-LibDoc----V1  ven 05 mar 2010 10:53:42 CET
+#
+$MODULE inductor_8mm-p5
+Li inductor_8mm-p5
+Cd Inductor, 8mm p5
+$EndMODULE
+#
+$MODULE PCB_PUSH
+Li PCB_PUSH
+Cd PCB pushbutton, Tyco FSM6x6 series
+Kw pushbutton
+$EndMODULE
+#
+$MODULE crystal_hc-49u
+Li crystal_hc-49u
+Cd Crystal, HC-49U
+Kw QUARTZ
+$EndMODULE
+#
+$MODULE fuse_holder_CQ-2
+Li fuse_holder_CQ-2
+Cd Fuse holder, 5x20, CQ-200C
+Kw fuse
+$EndMODULE
+#
+$MODULE inductor_25mm
+Li inductor_25mm
+Cd power inductor, 25mm
+$EndMODULE
+#
+$EndLIBDOC

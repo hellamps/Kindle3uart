@@ -1,0 +1,296 @@
+EESchema Schematic File Version 2  date Чтв 09 Июн 2011 11:39:16
+LIBS:power
+LIBS:ft232r
+LIBS:maxim-ic
+LIBS:capacitors
+LIBS:usb
+LIBS:kindle
+LIBS:inductors
+LIBS:kindle-uart-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 1 1
+Title ""
+Date "8 jun 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 1400 1650
+Wire Wire Line
+	1250 1550 1500 1550
+Wire Wire Line
+	1250 1550 1250 2400
+Connection ~ 2650 2000
+Wire Wire Line
+	2650 2000 2850 2000
+Wire Wire Line
+	2850 2000 2850 1250
+Wire Wire Line
+	2850 1250 2900 1250
+Wire Wire Line
+	2650 1500 2450 1500
+Connection ~ 2450 950 
+Wire Wire Line
+	2450 750  2450 950 
+Wire Wire Line
+	1750 1100 1750 950 
+Connection ~ 1750 1500
+Wire Wire Line
+	1850 1500 1650 1500
+Connection ~ 1500 1550
+Wire Wire Line
+	5150 2950 5150 2700
+Wire Wire Line
+	5150 2700 5200 2700
+Wire Wire Line
+	5200 2500 5100 2500
+Wire Wire Line
+	5100 2500 5100 2600
+Wire Wire Line
+	5100 2600 4800 2600
+Connection ~ 4450 1100
+Wire Wire Line
+	4900 1100 3950 1100
+Wire Wire Line
+	2650 2100 2650 1900
+Wire Wire Line
+	3900 5000 3900 4500
+Connection ~ 3900 4850
+Wire Wire Line
+	4050 4850 4050 4500
+Wire Wire Line
+	3550 4700 3550 4850
+Wire Wire Line
+	3750 4850 3750 4500
+Wire Wire Line
+	4450 1650 4450 1500
+Wire Wire Line
+	4050 1100 4050 2100
+Wire Wire Line
+	2900 2800 1650 2800
+Wire Wire Line
+	1650 2800 1650 2400
+Wire Wire Line
+	1500 2400 1500 2700
+Wire Wire Line
+	1500 2700 2900 2700
+Wire Wire Line
+	3650 2100 3650 1650
+Connection ~ 4050 1100
+Wire Wire Line
+	4800 3400 5000 3400
+Wire Wire Line
+	5000 3400 5000 1900
+Wire Wire Line
+	5000 1900 2900 1900
+Wire Wire Line
+	2900 1900 2900 1400
+Connection ~ 3750 4850
+Wire Wire Line
+	4200 4500 4200 4850
+Wire Wire Line
+	4200 4850 3550 4850
+Connection ~ 4050 4850
+Wire Wire Line
+	2650 2500 2900 2500
+Wire Wire Line
+	4450 1500 4900 1500
+Wire Wire Line
+	4800 2500 4800 2400
+Wire Wire Line
+	4800 2400 5150 2400
+Wire Wire Line
+	5150 2400 5150 2600
+Wire Wire Line
+	5150 2600 5200 2600
+Wire Wire Line
+	1250 2400 1400 2400
+Wire Wire Line
+	1650 1500 1650 1650
+Wire Wire Line
+	1500 1650 1500 1100
+Wire Wire Line
+	1500 1100 1750 1100
+Wire Wire Line
+	1750 950  2650 950 
+Connection ~ 2300 950 
+Wire Wire Line
+	2900 1100 2800 1100
+Wire Wire Line
+	2800 1100 2800 1350
+Wire Wire Line
+	2800 1350 2300 1350
+Connection ~ 2650 1350
+Wire Wire Line
+	3650 1650 2650 1650
+Wire Wire Line
+	2650 1650 2650 1350
+Connection ~ 2650 1500
+NoConn ~ 1800 -450
+NoConn ~ 4800 3850
+NoConn ~ 4800 4000
+$Comp
+L C C1
+U 1 1 4DEF5EBF
+P 1750 1300
+F 0 "C1" H 1800 1400 50  0000 L CNN
+F 1 "0,1uF" H 1800 1200 50  0000 L CNN
+	1    1750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPOL C3
+U 1 1 4DEF5E96
+P 2650 1150
+F 0 "C3" H 2550 1300 50  0000 L CNN
+F 1 "10uF" H 2450 1050 50  0000 L CNN
+	1    2650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE~CHIP L1
+U 1 1 4DEF5E44
+P 2150 1500
+F 0 "L1" V 2100 1500 40  0000 C CNN
+F 1 "FERRITE CHIP" V 2250 1500 40  0000 C CNN
+	1    2150 1500
+	0    1    1    0   
+$EndComp
+NoConn ~ 2900 3000
+NoConn ~ 2900 3200
+NoConn ~ 2900 3700
+NoConn ~ 4800 3700
+NoConn ~ 4800 3550
+NoConn ~ 4800 3200
+NoConn ~ 4800 3100
+NoConn ~ 4800 3000
+NoConn ~ 4800 2900
+NoConn ~ 4800 2800
+NoConn ~ 4800 2700
+NoConn ~ 5200 2800
+$Comp
+L DGND #PWR5
+U 1 1 4DEF5CDB
+P 5150 2950
+F 0 "#PWR5" H 5150 2950 40  0001 C CNN
+F 1 "DGND" H 5150 2880 40  0000 C CNN
+	1    5150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L KINDLE_UART X1
+U 1 1 4DEF5C44
+P 5550 2650
+F 0 "X1" H 5550 2900 50  0000 C CNN
+F 1 "KINDLE_UART" V 5700 2650 50  0000 C CNN
+	1    5550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L CPOL C6
+U 1 1 4DEF5A3A
+P 4900 1300
+F 0 "C6" H 4950 1400 50  0000 L CNN
+F 1 "10uF" H 4950 1200 50  0000 L CNN
+	1    4900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR1
+U 1 1 4DEF5A0B
+P 2450 750
+F 0 "#PWR1" H 2450 750 40  0001 C CNN
+F 1 "DGND" H 2450 680 40  0000 C CNN
+	1    2450 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L DGND #PWR2
+U 1 1 4DEF5A05
+P 2650 1900
+F 0 "#PWR2" H 2650 1900 40  0001 C CNN
+F 1 "DGND" H 2650 1830 40  0000 C CNN
+	1    2650 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L DGND #PWR3
+U 1 1 4DEF59D2
+P 3900 5000
+F 0 "#PWR3" H 3900 5000 40  0001 C CNN
+F 1 "DGND" H 3900 4930 40  0000 C CNN
+	1    3900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 4DEF4F25
+P 2300 1150
+F 0 "C2" H 2150 1250 50  0000 L CNN
+F 1 "0,1uF" H 2050 1050 50  0000 L CNN
+	1    2300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 4DEF4F1F
+P 2650 2300
+F 0 "C4" H 2700 2400 50  0000 L CNN
+F 1 "0,1uF" H 2700 2200 50  0000 L CNN
+	1    2650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR4
+U 1 1 4DEF47D4
+P 4450 1650
+F 0 "#PWR4" H 4450 1650 40  0001 C CNN
+F 1 "DGND" H 4450 1580 40  0000 C CNN
+	1    4450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 4DEF4790
+P 4450 1300
+F 0 "C5" H 4500 1400 50  0000 L CNN
+F 1 "0,1uF" H 4500 1200 50  0000 L CNN
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+Text Label 4050 1100 0    60   ~ 0
+VCCIO
+$Comp
+L MAX8511 U1
+U 1 1 4DEF43B7
+P 3400 1250
+F 0 "U1" H 3400 1500 60  0000 C CNN
+F 1 "MAX8511" H 3450 1000 60  0000 C CNN
+	1    3400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB J1
+U 1 1 4DEF432F
+P 1850 2050
+F 0 "J1" H 1800 2450 60  0000 C CNN
+F 1 "USB" V 1600 2200 60  0000 C CNN
+	1    1850 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L FT232R U2
+U 1 1 4DEF42F7
+P 3850 3300
+F 0 "U2" H 3250 4450 60  0000 C CNN
+F 1 "FT232R" H 3850 3600 60  0000 C CNN
+F 2 "SSOP28" H 3850 3500 50  0000 C CNN
+	1    3850 3300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
