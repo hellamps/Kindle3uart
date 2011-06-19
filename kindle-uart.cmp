@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPCB (2010-00-09 BZR 23xx)-stable date = Вск 19 Июн 2011 21:15:32
+
+BeginCmp
+TimeStamp = /4DEF5EBF;
+Reference = C1;
+ValeurCmp = 0,1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF4F25;
+Reference = C2;
+ValeurCmp = 0,1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF5E96;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = c_tant_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF4F1F;
+Reference = C4;
+ValeurCmp = 0,1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF4790;
+Reference = C5;
+ValeurCmp = 0,1uF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF5A3A;
+Reference = C6;
+ValeurCmp = 10uF;
+IdModule  = c_tant_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF432F;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = USB_MICRO_AB;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF5E44;
+Reference = L1;
+ValeurCmp = FERRITE_CHIP;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF43B7;
+Reference = U1;
+ValeurCmp = MAX8511;
+IdModule  = sc70-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF42F7;
+Reference = U2;
+ValeurCmp = FT232R;
+IdModule  = QSOP28;
+EndCmp
+
+BeginCmp
+TimeStamp = /4DEF5C44;
+Reference = X1;
+ValeurCmp = KINDLE_UART;
+IdModule  = KINDLE_UART;
+EndCmp
+
+EndListe

@@ -1,4 +1,4 @@
-update=Сбт 18 Июн 2011 17:18:48
+update=Вск 19 Июн 2011 21:32:51
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -59,8 +59,8 @@ LibName7=inductors
 [pcbnew]
 version=1
 PadDrlX=0
-PadDimH=906
-PadDimV=748
+PadDimH=157
+PadDimV=531
 BoardThickness=630
 SgPcb45=1
 TxtPcbV=800
